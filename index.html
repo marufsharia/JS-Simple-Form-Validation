@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>
+            JS Form Validation
+        </title>
+        <script type="text/javascript" src="script.js">
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1>
+                JS Form Validation
+            </h1>
+            <hr/>
+            <p id="errorMsg">
+            </p>
+            <form name="myForm" action="view.php" onsubmit="return validateForm()" method="post">
+                <table border=1>
+                    <tr>
+                        <td>
+                            First Name:
+                        </td>
+                        <td>
+                            <input type="text" name="firstName"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Last Name:
+                        </td>
+                        <td>
+                            <input type="text" name="lastName"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone:
+                        </td>
+                        <td>
+                            <input type="text" name="phoneNO"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            <input type="text" name="emailId"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="password" name="pass"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Confirm:
+                        </td>
+                        <td>
+                            <input type="password" name="conPass"><br/>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit"/>
+            </form>
+        </center>
+    </body>
+</html>
